@@ -1,0 +1,40 @@
+.conteiner{
+   position: absolute;
+   right: 40%;
+    background: gray;
+    width: 400px;
+    height: 400px;
+   
+}
+.c1{
+    width: 40px;
+    height: 40px;
+    background-color: blue;  
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.c2{
+    width: 40px;
+    height: 40px;
+    background-color: violet;  
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.c3{
+    width: 40px;
+    height: 40px;
+    background-color: green;  
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.c4{
+    width: 40px;
+    height: 40px;
+    background-color: darkorange;  
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

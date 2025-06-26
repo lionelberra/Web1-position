@@ -1,0 +1,79 @@
+.conteiner{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+padding: 20px;
+
+}
+
+.caja{
+    background-color: antiquewhite;
+padding: 20px;
+width: 300px;
+
+}
+
+.masVendido{
+border: solid grey 1px;
+background-color: wheat;
+
+}
+
+.imagen{
+position: relative;
+    padding-top: 10px;
+ img {
+    width: 100%;
+ }
+}
+.contenedor-like{
+    position: absolute;
+    top: 10px;
+    right: 5px;  
+}
+.like{
+    width: 50px;
+    height: 50px;
+    font-size: 1.8em;
+    border-radius: 30px;
+}
+.contenedor-añadir{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+}
+.añadir{
+background-color: cornflowerblue;
+color: black;
+border-radius: 50px;
+
+    width: 100px;
+    height: 35px;
+}
+.precioDescuento{
+    color: green;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.precioDescuento span{
+color: gray;
+text-decoration: line-through;
+}
+
+.precio{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name{
+    min-height: 54px;
+    padding-bottom: 10px;
+}
+
+.reseña{
+display: flex;
+align-items: center;
+flex-direction: row;
+gap: 10px;
+}
+
